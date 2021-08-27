@@ -1,9 +1,5 @@
 name: Delete old published artefacts
 
-on:
-  schedule:
-    - cron:  '0 3 * * *' # Run every day at 3am
-
 env:
   BUILDS_SERVER: _couch/builds_testing
   STAGING_SERVER: _couch/builds
